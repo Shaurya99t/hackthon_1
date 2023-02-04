@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+      
+            /* background: linear-gradient(to top, rgba(207, 144, 144, 0.5)50%,rgba(155, 119, 119, 0.5)50%), url(w5.jpg); */
+        }
+        .header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(168, 36, 135, 0.932),rgba(124, 48, 99, 0.801));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    width: 150px;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px ;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(61, 223, 21);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:rgb(240, 98, 98);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+        .course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+        .d3{
+            /* background-color:rgb(104, 65, 15);
+            color: brown;
+            background-position: center;
+            height: 30px;
+            width: 110px; */
+            padding: 10px;
+            background-color: bisque;
+        height: 20px;
+        width: 120px;
+    background: linear-gradient(to top, rgba(207, 144, 144, 0.5)50%,rgba(155, 119, 119, 0.5)50%), url(w5.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 20px;
+            border-radius: 20px;
+
+        }
+
+        .d4 {
+            /* width: 300px; */
+            padding: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            height: 300px;
+            background-color: rgb(250, 176, 85);
+            color: rgb(120, 6, 226);
+            border: 20px;
+            border-radius: 20px;
+        }
+        .d5{
+            padding: 1%;
+            background-color: black;
+            color: aliceblue;
+            border: 20px;
+            border-radius: 20px;
+        }
+        .s1{
+            font-size:large;
+            color: rgb(240, 13, 13);
+            font-family: serif  
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png" height="100px"></a>
+            <div class="nav-links">
+                <i class="fa-na-times"></i>
+                <ul>
+                    <li><a href="inbox.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="d1">
+        <!-- <div class="d2"> -->
+        <h3 class="d3">
+            Shaurya seth
+        </h3>
+        <div class="d4">
+            My self Shaurya seth from IMS engginering college from 2nd year.<br>
+            I am the founder of this webdite and the founder of <span class="s1">SHAURYA</span> foundation in this
+            FOUNDATION we have many field where we use to schow ours talent and invest in it, the major field is study
+            and education and study in easy way and in samrt way.<br>
+<br>
+The aim of this project is to give knowledge to all the new and old Learner as well as speicaily abled with certain tools and boot an as well as smart assistance without any distraction like other platefrom.
+<br>
+</div>
+<div class="d5">This foundestion was founded in nov 2022</div>
+    </div>
+</body>
+
+</html>

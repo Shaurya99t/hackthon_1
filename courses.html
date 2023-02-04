@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+   background-position: center;
+   background-image: linear-gradient(rgba(168, 36, 135, 0.932),rgba(124, 48, 99, 0.801));
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    width: 150px;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px ;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(61, 223, 21);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:rgb(240, 98, 98);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+        .course{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: rgb(155, 25, 25);
+    font-size: 14px;
+    font-weight: 30;
+    line-height: 22px;
+    padding: 10px;
+}
+.course-col{
+        flex-basis: 11%;
+        width: 200px;
+        background: rgb(135, 203, 235);
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 10px;
+        box-sizing:border-box;
+        transition: 0.5s;
+}
+h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .course-col:hover{
+        box-shadow: 0 0 20px 0px rgb(12, 48, 65);
+    }
+    .text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png" height="100px"></a>
+            <div class="nav-links">
+                <i class="fa-na-times"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>we have 100+diffrent courses which is free for all</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>CLASS 1</h3>
+                <a href="courses1.html">Click Here</a>
+                <h3>CLASS 2</h3>
+                <a href="courses2.html">Click Here</a>
+                <h3>CLASS 3</h3>
+                <a href="courses3.html">
+                    click Here
+                </a>
+            </div>
+        </div>
+    </section>
+   </body> 
+</html>
